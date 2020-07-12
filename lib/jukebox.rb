@@ -47,7 +47,7 @@ def play(songs)
     elsif input != name && input != index.to_s
       puts "Invalid input, please try again"
     end
-    binding.pry
+   
   end
 end
 
