@@ -50,6 +50,8 @@ def play(songs)
       puts "Playing #{name}"
       break
     end
+    if name != input
+      puts "Invalid input, please try again"
   end
 
 end
