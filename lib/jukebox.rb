@@ -44,6 +44,11 @@ def play(songs)
       puts "Playing #{name}"
     end
   end
+  songs.each do |name|
+    if name == input
+      puts "Playing #{name}"
+    end
+  end
   
 end
 
