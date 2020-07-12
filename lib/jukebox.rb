@@ -49,8 +49,7 @@ def play(songs)
     if name == input
       puts "Playing #{name}"
       break
-    end
-    if name != input
+    else
       puts "Invalid input, please try again"
     end
   end
