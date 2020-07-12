@@ -47,6 +47,8 @@ def play(songs)
   songs.each do |name|
     if name == input
       puts "Playing #{name}"
+    else
+      puts "Invalid input, please try again"
     end
   end
   
