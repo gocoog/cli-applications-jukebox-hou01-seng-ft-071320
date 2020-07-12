@@ -42,11 +42,13 @@ def play(songs)
     index += 1
     if input == index.to_s
       puts "Playing #{name}"
+      break
     end
   end
   songs.each do |name|
     if name == input
       puts "Playing #{name}"
+      break
     else
       puts "Invalid input, please try again"
     end
