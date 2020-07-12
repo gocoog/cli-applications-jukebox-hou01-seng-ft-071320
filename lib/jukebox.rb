@@ -42,7 +42,7 @@ def play(songs)
     index += 1
     if input == index.to_s
       puts "Playing #{name}"
-    elsif songs[name] == input
+    elsif name == input
       puts "Playing #{name}"
     else
       puts "Invalid input, please try again"
