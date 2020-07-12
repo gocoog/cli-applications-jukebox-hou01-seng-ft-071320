@@ -45,7 +45,11 @@ def play(songs)
     elsif name == input
       puts "Playing #{name}"
     end
+    if input != index.to_s || input != name
+      puts "Invalid input, please try again"
+    end
   end
+  
 end
 
 def exit_jukebox
