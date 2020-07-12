@@ -42,12 +42,11 @@ def play(songs)
     index += 1
     if input == index.to_s
       puts "Playing #{name}"
+    elsif name == input
+      puts "Playing #{name}"
+    else
+      puts "Invalid input, please try again"
     end
-  end
-  if songs[0] == input
-    puts "Playing #{name}"
-  else 
-    puts "Invalid input, please try again"
   end
 end
 
