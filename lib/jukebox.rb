@@ -49,12 +49,9 @@ def play(songs)
     if name == input
       puts "Playing #{name}"
       break
-    else
-      puts "Invalid input, please try again"
     end
-
   end
-  
+  puts "Invalid input, please try again"
 end
 
 def exit_jukebox
