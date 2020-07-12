@@ -52,7 +52,7 @@ def play(songs)
     end
     binding.pry
   end
-  puts "Invalid input, please try again"
+
 end
 
 def exit_jukebox
