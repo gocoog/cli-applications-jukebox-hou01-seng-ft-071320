@@ -44,10 +44,10 @@ def play(songs)
       puts "Playing #{name}"
     elsif name == input
       puts "Playing #{name}"
-    elsif input != name && input != index.to_s
+    else
       puts "Invalid input, please try again"
     end
-   
+    binding.pry
   end
 end
 
