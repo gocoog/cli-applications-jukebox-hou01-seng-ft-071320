@@ -52,6 +52,7 @@ def play(songs)
     end
     if name != input
       puts "Invalid input, please try again"
+    end
   end
 
 end
