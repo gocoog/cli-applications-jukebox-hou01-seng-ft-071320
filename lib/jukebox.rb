@@ -50,7 +50,6 @@ def play(songs)
       puts "Playing #{name}"
       break
     end
-    binding.pry
   end
 
 end
